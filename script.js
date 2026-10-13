@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.panel').forEach((el,i)=>{el.style.animationDelay=(Math.min(i,5)*70)+'ms'});});
